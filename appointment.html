@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href="bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <script src="jquery-3.4.1.js"></script>
+  <script src="scripts.js"></script>
+  <title>Appointment</title>
+  </head>
+  <body>
+  <div class="container">
+    <h1>Fill in the blanks to fill in your information for the appointment</h1>
+    <div id="blanks">
+      <form>
+        <div class="form-group">
+          <label for="Fullname">Full Name</label>
+          <input id="FullName" class="form-control" type="text"
+        </div>
+
+        <div class="form-group">
+          <label for="Date">Date of Appointment</label>
+          <input type="Date" class="form-control" type="text"
+        </div>
+
+        <div class="form-group">
+          <label for="StartTime">Start Time</label>
+          <input type="StartTime" class="form-control" type="text"
+        </div>
+
+        <div class="form-group">
+          <label for="Endtime">End Time</label>
+          <input type="Endtime" class="form-control" type="text"
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Check me out
+          </label>
+        </div>
+        <button type="submit" class="btn-default">Submit</button>
+      </form>
+
+      <div id="story">
+          <span class="Fullname"></span>
+          <span class="Date"></span>
+          <span class="StartTime"></span>
+          <span class="Endtime"></span>
+        </div>
+      </div>
+    </body>
+  </html>
